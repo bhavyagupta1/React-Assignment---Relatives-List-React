@@ -8,13 +8,13 @@ class App extends Component {
             <div id="main">
                 <ol key= "relativeList">
                 {
-                    relatives.map((relative , idx) =>{
+                    relatives.map((relative , idx) =>(
                         <li key={"relativeListItem" + (idx +1)}>{relatives}</li>
-                    })
-                }</ol>
-
+                    ))
+                }
+                </ol>
             </div>
-        )
+        );
     }
 }
 
